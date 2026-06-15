@@ -1,0 +1,50 @@
+# Python virtual environments
+**/.venv/
+**/venv/
+**/env/
+
+# Python cache and test output
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/htmlcov/
+
+# Python packaging/build output
+**/build/
+**/dist/
+**/*.egg-info/
+
+# Node dependencies and frontend builds
+**/node_modules/
+**/dist/
+**/.vite/
+**/*.tsbuildinfo
+
+# Local secrets and machine-specific env files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local runtime data
+**/data/
+**/*.sqlite
+**/*.sqlite3
+**/*.sqlite3-shm
+**/*.sqlite3-wal
+**/*.db
+**/*.pickle
+
+# Logs
+**/*.log
+**/logs/
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
